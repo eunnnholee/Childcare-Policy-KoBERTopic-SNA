@@ -106,6 +106,8 @@ model = BERTopic(
     calculate_probabilities=True  # 확률 계산 설정
 )
 ```
+</br>
+
 1차시도:
 - 불용어 처리 전 1차 시도 결과
    - 토픽수: 10
@@ -115,6 +117,7 @@ model = BERTopic(
 
 [바로가기]()
 
+</br>
 
 2차시도:
 - 불용어 처리 처리 후 2차 시도 결과
@@ -126,7 +129,7 @@ model = BERTopic(
 
 [바로가기]()
 
-
+</br>
 
 ### 3. SNA(Social Network Analysis)
 추가적인 전처리:
@@ -135,6 +138,7 @@ model = BERTopic(
 
 [바로가기]()
 
+</br>
 
 TF-IDF
 - 각 문서 별 단어의 BOW 벡터 산출 후 TF-IDF 값을 계산
@@ -143,16 +147,89 @@ TF-IDF
 > 총 334개의 당너가 주요 Topic 단어로 선정
 > 각 단어를 SNA의 node로 사용
 
+</br>
 
 동시출현빈도
 - 각 단어들끼리의 동시출현빈도를 리스트로 저장
 > 동시출현관계 : SAN의 Edge로 사용
 > 동시출현빈도 : SNA의 가중치로 사용
 
+[바로가기]()
 
-S
+</br>
 
 
+SNA info
+```
+노드의 개수 : 334
+엣지의 개수 : 37137
+
+Diamter : 2
+Density : 0.66779
+Transitivity : 0.75742 
+
+Degree centrality (연결 중심성) :
+[('출산', 1.0), ('회사', 0.99699), ('신청', 0.99699)]
+Betweenness centrality (매개 중심성) :
+[('출산', 0.00326), ('기간', 0.00323), ('1년', 0.00321)]
+Closeness centrality (근접 중심성):
+[('출산', 1.0), ('회사', 0.99700), ('신청', 0.99700)]
+Eigenvector centrality :
+[('출산', 0.07428), ('신청', 0.07420), ('회사', 0.07420)]
+```
+
+[바로가기]()
+
+</br>
+
+
+Community Detection(Louvain algorithm)
+```
+# community_louvain
+partition = cl.best_partition(G_data, random_state = 42, resolution=1.08)
+```
+> Resolution 값을 1.0에서 1.1 사이의 값으로 변경해가며 가장 해석에 용의한 1.08 값을 채택
+
+</br>
+</br>
+
+
+## III. 결론
+총 16개의 Cluster가 도출
+```
+Cluster4 : [‘회사’]
+Cluster5 : [‘사용’]
+Cluster7 : [‘예정’]
+Cluster8 : [‘3개월’] 
+Cluster9 : ['근무', '직장’] 
+Cluster10 : ['이후', '뭐’] 
+Cluster12 : [‘말’, ‘시’] 
+Cluster13 : [‘생각’, ‘6개월’] 
+Cluster15 : [‘내년’, ‘임신’]
+```
+> Node의 개수가 매우 작은 경우, Cluster 해석에서 중요하지 않다고 판단하여 제외
+
+
+1. Cluster0
+- 본인의 근로조건 상황에 따라, 충분한 육아휴직 지원을 활용하지 못할 경우, 기타 급여 처리에 관한 최적화 방안은 무엇일까?
+
+2. Cluster1
+- 출산 예정일 및 연차 소진 등을 고려하여 육아휴직을 어떻게 스케쥴링하는 것이 좋을까요?(출잔전후휴가, 산전(후)육아휴직 등)
+
+3. Cluster2
+- 맞벌이 중인 육아휴직을 고려하는 직장맘의 입장에서, 어린이집에서의 연장반 이용 유지를 위한 방법이 있을까?
+
+4. Cluster3
+- 3+3 부모육아휴직제의 내용과 혜택은 어떻게 진행될까?
+
+5. Cluster6
+- 육아휴직 급여 신청방법 및 신청기간에 대해 궁금해요!
+
+6. Cluster11
+- 일반근로자와 달리 공무원들의 육아휴직 신청 조건 및 법 조항이 다른가요?
+
+7. Cluster14
+- 육아휴직 신청 관련해서 필요한 서류와 급여지급은 어디에서 이뤄질까요?
 
 
 
