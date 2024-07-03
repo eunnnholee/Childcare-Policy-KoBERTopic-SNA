@@ -8,6 +8,8 @@
 > -  ‘육아휴직’ 키워드가 포함된 질문이 가장 많은 상위 4개의 게시판 선정
 > -  약 1년간의 누적 게시글 데이터를 크롤링
 
+[바로가기]()
+
 ​
 ### Research Question: 
 
@@ -54,6 +56,9 @@
 - python 3
 
 ```
+pip install selenium
+pip install chromedriver-autoinstaller
+pip install beautifulsoup4
 pip install chromedriver-autoinstaller
 pip install konlpy
 pip install bertopic
