@@ -194,6 +194,7 @@ partition = cl.best_partition(G_data, random_state = 42, resolution=1.08)
 </br>
 </br>
 
+[바로가기]()
 
 ## III. 결론
 총 16개의 Cluster가 도출
@@ -209,6 +210,8 @@ Cluster13 : [‘생각’, ‘6개월’]
 Cluster15 : [‘내년’, ‘임신’]
 ```
 > Node의 개수가 매우 작은 경우, Cluster 해석에서 중요하지 않다고 판단하여 제외
+
+[바로가기]()
 
 </br>
 
@@ -233,6 +236,8 @@ Cluster15 : [‘내년’, ‘임신’]
 
 7. Cluster14
 > 육아휴직 신청 관련해서 필요한 서류와 급여지급은 어디에서 이뤄질까요?
+
+[바로가기]()
 
 </br>
 
