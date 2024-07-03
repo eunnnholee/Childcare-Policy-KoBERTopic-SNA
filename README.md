@@ -58,8 +58,6 @@
 ```
 pip install selenium
 pip install chromedriver-autoinstaller
-pip install beautifulsoup4
-pip install chromedriver-autoinstaller
 pip install konlpy
 pip install bertopic
 pip install python-louvain
