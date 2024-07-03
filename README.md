@@ -191,10 +191,11 @@ partition = cl.best_partition(G_data, random_state = 42, resolution=1.08)
 ```
 > Resolution 값을 1.0에서 1.1 사이의 값으로 변경해가며 가장 해석에 용의한 1.08 값을 채택
 
+[바로가기]()
+
 </br>
 </br>
 
-[바로가기]()
 
 ## III. 결론
 총 16개의 Cluster가 도출
