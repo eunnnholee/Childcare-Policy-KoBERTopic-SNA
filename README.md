@@ -40,6 +40,7 @@
 
 ## 방법론:
 1. TF-IDF
+<img width="351" alt="image" src="https://github.com/eunnnholee/Childcare-Policy-KoBERTopic-SNA/assets/151797888/5078da9c-c853-4129-a29b-2574ac01deae">
 
 > -  정보검색과 텍스트마이닝에서 이용하는 가중치, 어떤 단어가 특정문서에서 얼마나 중요한지를 나타내는 통계적 수치이다.
 > -  모든 문서에서 자주 등장하는 단어는 중요도가 낮다고 판단하며, 특정 문서에만 자주 등장하는 단어는 중요도가 높다고 판단한다. 다시말해, TF-IDF 값이 낮으면 중요도가 낮은 것이며 반대로 크면 중요도가 큰 것이다.
