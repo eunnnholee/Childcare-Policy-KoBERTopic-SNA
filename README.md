@@ -67,13 +67,15 @@
 >    -  텍스트 데이터의 특성에 따라 토픽 수를 유연하게 조절할 수 있어 다양한 데이터에 대한 적응성이 우수 - BERT 모델의 특성상 단어의 의미를 파악할 때 문맥을 고려
 
 
-설치 패키징
+설치 패키지: 
 - python 3
 
-'''
+```bash
 pip install chromedriver-autoinstaller
 pip install konlpy
 pip install bertopic
 pip install python-louvain
-'''
+
+
+
 
