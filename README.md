@@ -8,7 +8,7 @@
 > -  ‘육아휴직’ 키워드가 포함된 질문이 가장 많은 상위 4개의 게시판 선정
 > -  약 1년간의 누적 게시글 데이터를 크롤링
 
-[바로가기]()
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/crawler/naver_cafe_crawler.py)
 
 ​
 ### Research Question: 
