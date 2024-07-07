@@ -74,7 +74,7 @@ pip install python-louvain
 - 특수문자 제거
 - 불용어 처리
 
-[바로가기]()
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/preprocess/text_preprocessing.py)
 
 </br>
 
