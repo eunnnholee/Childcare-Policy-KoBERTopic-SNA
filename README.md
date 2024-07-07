@@ -121,7 +121,8 @@ model = BERTopic(
    1. Konlpy를 이용한 명사 추출
    2. 추가적으로 필터링하지 못한 단어 제거
 
-[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/SNA/SNA_preprocessing.py)
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/preprocess/SNA_preprocessing.py)
+
 
 </br>
 
