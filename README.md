@@ -184,7 +184,7 @@ partition = cl.best_partition(G_data, random_state = 42, resolution=1.08)
 
 
 ## III. 결론
-총 16개의 Cluster 도출되었지만 Node의 개수가 매우 작은 경우, Cluster 해석에서 중요하지 않다고 판단하여 제외
+총 16개 Cluster가 도출되었지만 Node의 개수가 매우 작은 경우, Cluster 해석에서 중요하지 않다고 판단하여 제외
 > 4, 5, 7, 8, 9, 10, 12, 13, 15 Cluster 제외
 ```
 Cluster0 : [권고사직, 계약직, 퇴직금, 사후지급금, 사업장, 대체인력]
