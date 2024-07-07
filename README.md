@@ -221,7 +221,7 @@ Cluster14 : [고용보험, 고용노동부, 제출, 서류, 고용센터, 조기
 7. Cluster14 [고용보험, 고용노동부, 제출, 서류, 고용센터, 조기복직]
 > 육아휴직 신청 관련해서 필요한 서류와 급여지급은 어디에서 이뤄질까요?
 
-[바로가기]()
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/appendix/%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AF%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%B5_%E1%84%90%E1%85%A9%E1%84%91%E1%85%B5%E1%86%A8%E1%84%87%E1%85%A7%E1%86%AF%E1%84%8F%E1%85%B5%E1%84%8B%E1%85%AF%E1%84%83%E1%85%B3.png)
 
 </br>
 
