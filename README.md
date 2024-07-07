@@ -99,7 +99,7 @@ model = BERTopic(
 > -  해석할 수 없는 결과 도출
 > -  추가적인 불용어 처리 후 섬세한 결과를 기대
 
-[바로가기]()
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/KoBERTopic/topic_modeling_ver1.py)
 
 </br>
 
@@ -111,7 +111,7 @@ model = BERTopic(
 > - 다른 방법론을 통해 질문지를 재구성할 필요성 대두
 > - **SNA를 통한 토픽모델링화: 질문지 재구성** 
 
-[바로가기]()
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/KoBERTopic/topic_modeling_ver2.py)
 
 </br>
 
