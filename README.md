@@ -165,7 +165,7 @@ Eigenvector centrality :
 [('출산', 0.07428), ('신청', 0.07420), ('회사', 0.07420)]
 ```
 
-[바로가기]()
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/SNA/SNA_visualization.py)
 
 </br>
 
@@ -177,7 +177,7 @@ partition = cl.best_partition(G_data, random_state = 42, resolution=1.08)
 ```
 > Resolution 값을 1.0에서 1.1 사이의 값으로 변경해가며 가장 해석에 용의한 1.08 값을 채택
 
-[바로가기]()
+[바로가기](https://github.com/eunnnholee/childcare-policy-KoBERTopic-SNA/blob/main/SNA/community_detection.py)
 
 </br>
 </br>
@@ -196,7 +196,6 @@ Cluster11 : [공무원, 올해, 퇴사, 변경, 인터넷, 연차수당]
 Cluster14 : [고용보험, 고용노동부, 제출, 서류, 고용센터, 조기복직]
 
 ```
-[바로가기]()
 
 </br>
 
